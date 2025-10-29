@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog de Entretenimiento</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🔹 CONTENEDOR GENERAL -->
+  <div class="container">
+
+    <!-- 🔹 HEADER -->
+    <header>
+      <div class="encabezado-contenido">
+        <div class="logo-container">
+          <img src="imagenes/logo.png" alt="Logo del Blog" />
+        </div>
+        <h1>Entertainment Opción</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#" data-section="inicio">Inicio</a></li>
+          <li><a href="#" data-section="podcast">Podcast</a></li>
+          <li><a href="#" data-section="lugares">Lugares</a></li>
+          <li><a href="#" data-section="tutoriales">Tutoriales</a></li>
+          <li><a href="#" data-section="otros">Otros</a></li>
+          <li><a href="#" data-section="contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 🔹 MAIN -->
+    <main>
+
+      <!-- Sección de Inicio -->
+      <section id="inicio" class="seccion">
+        <h2>Bienvenidos al Blog</h2>
+        <p>
+          Bienvenido a nuestro <strong>Blog de Entretenimiento</strong>, un espacio donde exploramos todo lo que nos divierte y emociona.
+          Aquí encontrarás recomendaciones, análisis, curiosidades y experiencias reales sobre música, películas, lugares, eventos y mucho más.
+        </p>
+
+        <div class="imagen-destacada">
+          <img src="imagenes/banner.png" alt="Banner principal" style="width: 100%; max-width: 700px; border-radius: 10px; margin: 20px 0;" />
+        </div>
+
+        <h3>Nuestra Misión</h3>
+        <p>Inspirarte a descubrir nuevas formas de entretenerte, aprender algo nuevo cada semana y mantenerte actualizado sobre lo mejor del ocio y la cultura pop.</p>
+
+        <section class="info-entretenimiento">
+          <div class="info-texto">
+            <h3>¿Qué puedes encontrar?</h3>
+            <ul class="lista-simple">
+              <li>Podcasts sobre cine, música y gaming</li>
+              <li>Lugares únicos para visitar y disfrutar</li>
+              <li>Tutoriales creativos y fáciles de seguir</li>
+              <li>Noticias y tendencias del entretenimiento</li>
+              <li>Recomendaciones de eventos y festivales</li>
+            </ul>
+
+            <h3>Últimas Novedades</h3>
+            <p>
+              Esta semana hablamos sobre <strong>las películas más esperadas del año</strong>.<br />
+              Nuevo episodio de podcast: <em>“Series que marcaron nuestra infancia”</em>.
+            </p>
+
+            <h3>Conócenos</h3>
+            <p>
+              Somos un grupo de amigos apasionados por la cultura pop, los viajes, el arte y el contenido digital.
+              Creamos este blog para compartir nuestras experiencias, aprender con ustedes y crear una comunidad divertida y participativa.
+            </p>
+
+            <blockquote>"La vida sin entretenimiento sería un error." – Autor desconocido</blockquote>
+          </div>
+
+          <div class="info-imagen">
+            <img src="imagenes/entretenimiento.jpg" alt="Ilustración de entretenimiento" />
+            <img src="imagenes/entretenimiento2.png" alt="Otra ilustración relacionada" />
+          </div>
+        </section>
+
+        <img src="imagenes/podcast.jpg" alt="Blog de entretenimiento" style="width: 20%; max-height: 100px; border-radius: 10px; margin-top: 20px;" />
+        <img src="imagenes/books.jpg" alt="Blog de entretenimiento2" style="width: 20%; max-height: 100px; border-radius: 10px; margin-top: 20px;" />
+        <img src="imagenes/entret.jpg" alt="Blog de entretenimiento3" style="width: 20%; max-height: 100px; border-radius: 10px; margin-top: 20px;" />
+      </section>
+
+      <!-- Sección de Podcast -->
+      <section id="podcast" class="seccion hidden">
+        <h2>Podcast de Entretenimiento</h2>
+        <p>Bienvenidos a nuestro podcast semanal, donde hablamos sobre nuestras recomendaciones favoritas de <strong>novelas, libros, películas, videojuegos, y series</strong>.</p>
+
+        <h3>Podcast de esta Semana: Recomendaciones de K-Dramas</h3>
+        <p>Esta semana te traemos una selección de <strong>K-Dramas</strong> que no te puedes perder. Desde historias románticas hasta thrillers emocionantes.</p>
+
+        <div class="escuchar-ahora">
+          <p class="texto-escuchar">Escucha nuestro podcast ahora:</p>
+
+          <div class="contenedor-podcast">
+            <div class="kdrama-banner">
+              <img src="imagenes/kdrama.png" alt="Banner de K-Dramas" />
+            </div>
+
+            <div class="audio-player">
+              <audio controls>
+                <source src="imagenes/podcast.M4A" type="audio/mpeg" />
+                Tu navegador no soporta el elemento de audio.
+              </audio>
+            </div>
+          </div>
+        </div>
+
+        <h3>Episodios Anteriores</h3>
+        <ul>
+          <li><strong>Recomendaciones de Novelas</strong> – ¿Qué leer este mes?</li>
+          <li><strong>Las Mejores Películas del Año</strong></li>
+          <li><strong>Juegos para tu Consola</strong></li>
+          <li><strong>Series Imperdibles</strong></li>
+        </ul>
+
+        <p>
+          Para escuchar más episodios, visita nuestro canal en
+          <a href="https://www.spotify.com" target="_blank">Spotify</a>.
+        </p>
+      </section>
+
+      <!-- Sección de Lugares -->
+      <section id="lugares" class="seccion hidden">
+        <h2>Lugares Recomendados</h2>
+        <p>Este mes, te recomendamos visitar el <strong>Lago de Chapultepec</strong> en la Ciudad de México.</p>
+
+        <div class="imagen-lugar">
+          <img src="imagenes/lago.jpg" alt="Lago de Chapultepec" />
+        </div>
+
+        <h3>Video sobre el Lago de Chapultepec</h3>
+        <div class="contenedor-video-imagen">
+          <video width="560" height="315" controls>
+            <source src="imagenes/visit.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+      </section>
+
+      <!-- Sección de Tutoriales -->
+      <section id="tutoriales" class="seccion hidden">
+        <h2>Tutorial de la Semana: ¡Crea tu propio Barco de Papel!</h2>
+        <p>
+          Mira este video desde YouTube 👇
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DTgEW_ktJ9c" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <section id="contacto" class="seccion hidden">
+        <h2>Contacto</h2>
+        <form id="formularioContacto">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- 🔹 FOOTER -->
+    <footer>
+      <p>¡Síguenos en nuestras redes sociales!</p>
+      <div class="social-links">
+        <a href="#"><img src="imagenes/iconos/icono_instagram.png" alt="Instagram" width="30" height="30" /></a>
+        <a href="#"><img src="imagenes/iconos/icono_twitter.png" alt="Twitter" width="30" height="30" /></a>
+        <a href="#"><img src="imagenes/iconos/icono_facebook.png" alt="Facebook" width="30" height="30" /></a>
+        <a href="#"><img src="imagenes/iconos/icono_youtube.png" alt="YouTube" width="30" height="30" /></a>
+      </div>
+
+      <p>© 2025 Blog de Entretenimiento</p>
+
+      <!-- ✅ DATOS PERSONALES -->
+      <p><strong>Curso:</strong> Conceptualización de servicios en la nube</p>
+      <p><strong>Nombre:</strong> Julia Marisol Chan Chi</p>
+      <p><strong>Código:</strong> 223983931 </p>
+      <p><strong>Correo:</strong> julia.chan23b@udgvirtual.udg.mx</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
