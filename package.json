@@ -1,10 +1,4 @@
 {
-  "name": "blog-entretenimiento",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "serve -s ."
-  },
-  "dependencies": {
-    "serve": "^14.2.0"
-  }
+  "name": "sitio-entretenimiento",
+  "version": "1.0.0"
 }
